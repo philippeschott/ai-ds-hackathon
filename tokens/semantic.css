@@ -1,0 +1,30 @@
+/*
+ * Semantic tokens: aliases onto the base and brand layers.
+ * Source: Figma "Simple Design System", collections "Color" (mode: SDS Light) and "Typography".
+ * Components use only these tokens, never the primitives directly.
+ */
+:root {
+  /* Background */
+  --sds-color-background-brand-default: var(--sds-color-brand-800);
+  --sds-color-background-brand-hover: var(--sds-color-brand-900);
+  --sds-color-background-neutral-tertiary: var(--sds-color-slate-200);
+  --sds-color-background-neutral-tertiary-hover: var(--sds-color-slate-300);
+  --sds-color-background-disabled-default: var(--sds-color-gray-300);
+
+  /* Border */
+  --sds-color-border-brand-default: var(--sds-color-brand-800);
+  --sds-color-border-neutral-secondary: var(--sds-color-slate-600);
+  --sds-color-border-default-default: var(--sds-color-gray-300);
+  --sds-color-border-disabled-default: var(--sds-color-gray-400);
+
+  /* Text */
+  --sds-color-text-brand-on-brand: var(--sds-color-brand-100);
+  --sds-color-text-default-default: var(--sds-color-gray-900);
+  --sds-color-text-neutral-default: var(--sds-color-slate-900);
+  --sds-color-text-disabled-on-disabled: var(--sds-color-gray-400);
+
+  /* Typography: Body */
+  --sds-typography-body-font-family: var(--sds-typography-family-sans);
+  --sds-typography-body-size-medium: var(--sds-typography-scale-03);
+  --sds-typography-body-font-weight-regular: var(--sds-typography-weight-regular);
+}

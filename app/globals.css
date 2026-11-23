@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "../tokens/base.css";
+@import "../tokens/brand.css";
+@import "../tokens/semantic.css";
 
 :root {
   --background: #ffffff;

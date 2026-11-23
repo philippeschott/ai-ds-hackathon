@@ -1,0 +1,13 @@
+/*
+ * Brand layer: swappable per brand.
+ * Swap this file (or override these variables) to white-label the system.
+ * Source: Figma "Simple Design System" (Color Primitives: Brand, Typography Primitives: Family Sans).
+ */
+:root {
+  --sds-color-brand-100: #f5f5f5;
+  --sds-color-brand-800: #2c2c2c;
+  --sds-color-brand-900: #1e1e1e;
+
+  /* Figma value: "Inter". --font-inter is set by next/font (app/layout.tsx, .storybook/preview.tsx). */
+  --sds-typography-family-sans: var(--font-inter), sans-serif;
+}
